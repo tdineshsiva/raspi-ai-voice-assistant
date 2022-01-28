@@ -129,7 +129,7 @@ Update the RESPEAKER_INDEX value with exact input device index number.
 *****************************************************************************************************
 type below command
 
-      contab -e
+      crontab -e
 add below line to at the end of the file and save.
 
       @reboot nohup bash /home/pi/raspi-ai-voice-assistant/launcher.sh &
